@@ -36,7 +36,8 @@ cb.setOAuthConsumerKey("eU9ZQCb4OrloQglOc6UTbERcm").
 También es necesario definir las palabras clave que desea hacer seguimiento en los Tweets en la clase "TwitterSpout".
 
 ``` java
-tweetFilterQuery.track(new String[] {"MovistarCo", "ClaroColombia", "Tigo_Colombia", 									"UNEMejorjuntos", "Virgin_MobileCo", "Uff_MOVIL"});
+tweetFilterQuery.track(new String[] {"MovistarCo", "ClaroColombia", "Tigo_Colombia",
+					"UNEMejorjuntos", "Virgin_MobileCo", "Uff_MOVIL"});
 ```
 
 ## Definir conexión mysql
