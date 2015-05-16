@@ -18,7 +18,8 @@ El sourcecode que define la topologia utiliza diferentes APIs:
 * [Apache Storm Core 0.9.3](https://storm.apache.org/downloads.html)
 * [MySQL Connectors Java 5.0.8](https://dev.mysql.com/downloads/connector/)
 
-El proyecto usa Apache Maven para gestionar las dependencias necesarias. 
+El proyecto usa [Apache Maven](https://maven.apache.org/download.cgi) 2.2.1 para gestionar las dependencias necesarias. 
+El proyecto fue desarrollado usando [Eclipse Java EE IDE](https://eclipse.org/downloads/) 4.4.1.
 
 ## Keys y Access Token de Twitter
 
@@ -56,3 +57,5 @@ Generar el archivo .jar que contenga las dependencias de la aplicación usando m
 ```
 mvn install
 ```
+
+Maven creará el directorio "target" en el workspace del proyecto en el cual se encuentra el archivo .jar a ser desplegado en Apache Storm, usar el archivo con dependencias.
